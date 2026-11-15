@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0a0a12">
+    <title>تیم لیتیوم</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <link rel="apple-touch-icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a class="nav-brand" href="#">
+                <img src="images/icon.png" alt="Lithium Team">
+                <span class="t" data-fa="تیم لیتیوم" data-en="Lithium Team">تیم لیتیوم</span>
+            </a>
+            <button class="lang-btn" id="langBtn" type="button" onclick="toggleLang()">
+                <i class="bi bi-translate" aria-hidden="true"></i>
+                <span id="langLabel">EN</span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <img class="hero-logo" src="images/icon.png" alt="Lithium Team">
+        <h1 class="t" data-fa="لیتیوم تیم" data-en="Lithium Team">لیتیوم تیم</h1>
+        <p class="t" data-fa="ما یه تیم کوچیک از توسعه‌دهنده‌های ایرانی‌ایم. چیزای ساده می‌سازیم که واقعاً کار می‌کنن."
+            data-en="We're a small team of Iranian developers. We build simple things that actually work.">ما یه تیم
+            کوچیک از توسعه‌دهنده‌های ایرانی‌ایم. چیزای ساده می‌سازیم که واقعاً کار می‌کنن.</p>
+    </header>
+
+    <main>
+        <section aria-labelledby="about-title">
+            <div class="about-box">
+                <h3 id="about-title"><i class="bi bi-people-fill" aria-hidden="true"></i><span class="t"
+                        data-fa="ما کی هستیم" data-en="Who we are">ما کی هستیم</span></h3>
+                <p class="t"
+                    data-fa="ما یه گروه کوچیک از توسعه‌دهنده‌هایی هستیم که دوست دارن چیزای واقعاً کاربردی بسازن. با هم چند تا پروژه رو از ایده تا انتشار پیش بردیم. روش کارمون کوتاهه: اول چیزی رو برای خودمون می‌سازیم، بعد به دست بقیه می‌رسونه. اگه جواب داد می‌مونه، اگه نه از اول می‌سازیش."
+                    data-en="We're a small group of developers who like to build things that actually work. We've shipped several projects together, from idea to release. Our method is short: we build it for ourselves first, then it reaches everyone else. If it works, it stays; if not, we rebuild it from scratch.">
+                    ما یه گروه کوچیک از توسعه‌دهنده‌هایی هستیم که دوست دارن چیزای واقعاً کاربردی بسازن. با هم چند تا
+                    پروژه رو از ایده تا انتشار پیش بردیم. روش کارمون کوتاهه: اول چیزی رو برای خودمون می‌سازیم، بعد به
+                    دست بقیه می‌رسونه. اگه جواب داد می‌مونه، اگه نه از اول می‌سازیش.</p>
+            </div>
+        </section>
+
+        <section aria-labelledby="code-title">
+            <div class="about-box">
+                <h3 id="code-title"><i class="bi bi-code-slash" aria-hidden="true"></i><span class="t" data-fa="کد ما"
+                        data-en="Our code">کد ما</span></h3>
+                <p class="t"
+                    data-fa="هر چیزی که می‌نویسیم، اپن‌سورسه. از خط اول تا خط آخر، همه‌چیز رو می‌تونی ببینی. کد رو خونده، چکش کن، باگ بزن، پیشنهاد بده. همه‌ی چیزی که منتشر می‌کنیم با لایسنس اپن‌سورس میاد، می‌تونی توی پروژه‌ی خودت استفاده‌اش کنی."
+                    data-en="Everything we write is open source. From the first line to the last, it's all visible. Read the code, check it, file a bug, suggest changes. Everything we publish ships with an open-source license, so you can use it in your own projects.">
+                    هر چیزی که می‌نویسیم، اپن‌سورسه. از خط اول تا خط آخر، همه‌چیز رو می‌تونی ببینی. کد رو بخونی، چکش کنی،
+                    باگ ریپورت بدی و یا پیشنهاد بدی. همه‌ی چیزی که منتشر می‌کنیم با لایسنس اپن‌سورس میاد، می‌تونی توی پروژه‌ی خودت
+                    استفاده‌اش کنی.</p>
+            </div>
+        </section>
+
+        <section aria-labelledby="repo-title">
+            <div class="repo-box">
+                <h3 id="repo-title"><i class="bi bi-github" aria-hidden="true"></i><span class="t"
+                        data-fa="کارمون کجاست" data-en="Where we work">کارمون کجاست</span></h3>
+                <p class="t"
+                    data-fa="همه‌ی کارهامون روی گیت‌هابه، رو حساب تیم لیتیوم. کد رو ببین، امتحانش کن، نظرت رو issue بزن، اگه چیزی رو دوست داشتی ستاره بده."
+                    data-en="All of our work is on GitHub, under the Lithium Team account. Read the code, try it, file an issue, star what you like.">
+                    همه‌ی کارهامون روی گیت‌هابه، رو حساب تیم لیتیوم. کد رو ببین، امتحانش کن، نظرت رو issue بزن، اگه چیزی
+                    رو دوست داشتی ستاره بده.</p>
+                <div class="btn-wrap">
+                    <a class="btn-accent" href="https://github.com/LithiumTeam" target="_blank" rel="noopener">
+                        <i class="bi bi-github" aria-hidden="true"></i>
+                        <span class="t" data-fa="رفتن به گیت‌هاب" data-en="Go to GitHub">رفتن به گیت‌هاب</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <p class="t" data-fa="تیم لیتیوم © 2026" data-en="Lithium Team © 2026">تیم لیتیوم © 2026</p>
+            <div class="footer-links">
+                <a href="https://github.com/LithiumTeam" target="_blank" rel="noopener">
+                    <i class="bi bi-github" aria-hidden="true"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/lang.js"></script>
+</body>
+
+</html>
