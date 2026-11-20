@@ -311,7 +311,7 @@ footer p {
     border-top-left-radius: 15px;
 }
 
-.user-box h3 {
+.user-box h3 , .user-box h4 {
     color: var(--text);
     text-align: center;
     margin-top: 10px;
